@@ -1,0 +1,26 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "webpack-demo",
+  "main": "./js/scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node ./js/scripts.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagerioz/webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagerioz/webpack/issues"
+  },
+  "homepage": "https://github.com/sagerioz/webpack#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "nodemon": "^1.11.0",
+    "webpack": "^3.5.4"
+  }
+}
